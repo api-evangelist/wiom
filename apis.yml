@@ -1,7 +1,25 @@
 aid: wiom
 name: Wiom
-description: 'Wiom is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Wiom is an Indian consumer internet company offering recharge-based home
+  broadband: shared WiFi delivered over a community mesh network so households can pay only
+  for the internet they actually use, without a mobile-data plan or a traditional fixed-line
+  broadband contract. It was surfaced into the API Evangelist network as a portfolio lead of
+  Accel. As of this enrichment pass Wiom operates a consumer marketing website (a React
+  single-page application) but publishes no public developer portal, API documentation, or
+  machine-readable API surface, so this profile carries verified identity and a live
+  domain-security probe rather than API artifacts.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://wiom.in/wiom_meta_image.png
 url: https://raw.githubusercontent.com/api-evangelist/wiom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Internet
+- Broadband
+- WiFi
+- Telecommunications
+- Connectivity
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,16 @@ maintainers:
 common:
 - type: Website
   url: https://wiom.in/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/wiom/
+- type: Twitter
+  url: https://twitter.com/Wiom_Official
+- type: Instagram
+  url: https://www.instagram.com/wiom_official/
+- type: DomainSecurity
+  url: security/wiom-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
