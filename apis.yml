@@ -8,6 +8,17 @@ description: 'Wiom is an Indian consumer internet company offering recharge-base
   single-page application) but publishes no public developer portal, API documentation, or
   machine-readable API surface, so this profile carries verified identity and a live
   domain-security probe rather than API artifacts.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
